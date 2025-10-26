@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components{
+        .img-gallery{
+            @apply w-sm hover:scale-105 transition duration-1000 hover:brightness-125 shadow-lg rounded-lg;
+        }
+        
+}
